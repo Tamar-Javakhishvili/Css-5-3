@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fullContainer {
+    display: flex;
+    width: 100%;
+    background: #FFF;
+}
+
+.sideBarContainer {
+    display: inline-flex;
+    height: 992px;
+    padding: 12px 28px 708px 28px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    background: #E7EEFF;
+}
+
+.navSearch {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navSearchText {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.navBrooklin {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navBrooklinText {
+    color: #5E6577;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.navContainer {
+    display: inline-flex;
+    width: 1336px;
+    height: 80px;
+    padding: 20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background: #E7EEFF;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+
+.miniContainerFull {
+    display: flex;
+    align-self: flex-end;
+    width: 519px;
+}
+
+.miniContainer {
+    display: flex;
+    align-self: flex-end;
+    gap: 30px;
+}
+
+.cardContainerOne {
+    display: flex;
+    width: 1144px;
+    align-items: center;
+    gap: 42px;
+}
+
+.cardContainerTwo {
+    display: flex;
+    width: 1144px;
+    align-items: center;
+    gap: 42px;
+}
+
+.miniContainerIcons {
+    display: flex;
+    padding: 8px 24px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 16px;
+    background: #E7EEFF;
+}
+
+.miniWidthOne {
+    width: 176px;
+}
+
+.miniWidthTwo {
+    width: 154px;
+}
+
+.miniWidthThree {
+    width: 129px;
+}
+
+.miniText {
+    color: #323232;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+
+.cardTextContainer {
+    display: flex;
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+    border-radius: 0px 0px 24px 24px;
+    background: #E7EEFF;
+}
+
+.cardHeader {
+    align-self: stretch;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.cardText {
+    align-self: stretch;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+}
